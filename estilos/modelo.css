@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+  }
+
+.tamañoIMG {
+    width: 100%;
+}
+
+.imagenesProd {
+    width: 100%;
+    height: 250px;
+}
+
+.tamañoCard{
+    height: 450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imagenAlmbum {
+    background-image: url(/imagenes/copia\ larga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.correctorBoton {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.checked {
+    color: orange;
+  }
