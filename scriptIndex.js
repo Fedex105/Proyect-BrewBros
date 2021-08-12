@@ -5,11 +5,7 @@ const HashRouter = ReactRouterDOM.HashRouter;
 
 
 class App extends React.Component {
-/*  El <a> de la linea 20 no funciona por que rompe por react router 
-    Los links del archivo JS de producto individual solo vuelven a la pantalla de Home debido a react router
-    Imagenes forzadas a cierta altura debido a diferentes ratios de alturaXancho
-    
-*/ 
+
     render(){
         return (
                 <HashRouter>
@@ -24,8 +20,12 @@ class App extends React.Component {
                                     <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
                                 </ul>
                                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                                    <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"></input>
+                                    <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search"></input>
                                 </form>
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                                    <button type="button" class="btn btn-light">Registrate</button>
+                                </div>
                             </div>
                         </div>
                     </header>
